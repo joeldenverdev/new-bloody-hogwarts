@@ -1,0 +1,6 @@
+<p>Average Age: <%= @average %></p>
+<%= @students.each do |student| %>
+  <p><%= student.name %></p>
+  <p><%= student.age %></p>
+  <p><%= student.house %></p>
+<% end %>
